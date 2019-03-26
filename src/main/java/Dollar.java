@@ -13,4 +13,8 @@ public class Dollar extends Money
         Dollar dollar = (Dollar) object;
         return amount == dollar.amount;
     }
+
+    String currency() {
+        return "USD";
+    }
 }
