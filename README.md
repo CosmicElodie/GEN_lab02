@@ -1,3 +1,3 @@
 # GEN_lab02
 
-###Élèves : Crüll Loris, Lagier Elodie
+### Élèves : Crüll Loris, Lagier Elodie
