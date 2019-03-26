@@ -1,8 +1,5 @@
 public class Dollar extends Money
 {
-
-    private String currency;
-
     Dollar(int amount) {
         this.amount = amount;
         currency = "USD";
@@ -15,9 +12,5 @@ public class Dollar extends Money
     public boolean equals(Object object) {
         Dollar dollar = (Dollar) object;
         return amount == dollar.amount;
-    }
-
-    String currency() {
-        return currency;
     }
 }
