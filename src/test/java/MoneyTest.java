@@ -6,12 +6,9 @@ class MoneyTest
 {
     @Test
     public void testMultiplication() {
-        Franc five= new Franc(5);
-        assertEquals(new Franc(10), five.times(2));
-        assertEquals(new Franc(15), five.times(3));
-        Dollar five2= new Dollar(5);
-        assertEquals(new Dollar(10), five2.times(2));
-        assertEquals(new Dollar(15), five2.times(3));
+        Dollar five = Money.dollar(5);
+        assertEquals(new Dollar(10), five.times(2));
+        assertEquals(new Dollar(15), five.times(3));
     }
 
     @Test
