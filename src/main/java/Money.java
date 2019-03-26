@@ -1,4 +1,4 @@
-abstract public class Money
+public class Money
 {
     protected int amount;
 
@@ -27,5 +27,11 @@ abstract public class Money
         return new Franc(amount, "CHF");
     }
 
-    abstract Money times(int multiplier);
+    Money times(int amount) {
+        return null;
+    }
+
+    public String toString() {
+        return amount + " " + currency;
+    }
 }
