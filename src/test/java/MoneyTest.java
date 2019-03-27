@@ -77,6 +77,7 @@ class MoneyTest
         assertEquals(1, new Bank().rate("USD", "USD"));
     }
 
+    @Test
     public void testMixedAddition() {
         Money fiveBucks= Money.dollar(5);
         Money tenFrancs= Money.franc(10);
