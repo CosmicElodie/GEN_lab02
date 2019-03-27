@@ -5,10 +5,6 @@
 #### Lien wiki
 https://github.com/CosmicElodie/GEN_lab02/wiki
 
-#### Erreurs et incohérence dans le livre
-
-Nous nous permettons de répertorier les fautes vues dans le livre, afin de (peut-être) expliquer certaines incohérences.
-
-###### Page 60
-Ajouter -> public Money reduce(String to) ne rend pas le code compilable, contrairement à ce que dit le livre. 
-1. Il faut ajouter la méthode : void addRate(String from, String to, int rate), pour que la méthode reduce fonctionne. En effet, celle-ci utilise addRate et ne peut fonctionner que si cette dernière est implémentée. 
+#### Erreurs et incohérences dans le git
+Il arrive que certaines des noms de nos branches ne s'affichent pas correctement dans le network graphe. Probablement à cause d'une mauvaise manipulation, qui a été fixée par la suite. 
+Nous avons remarqué que cela arrivait lorsque le chapitre ne comportait qu'un commit, et donc qu'on fixait l'issue dès le 1er commit. 
