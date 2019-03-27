@@ -98,6 +98,7 @@ class MoneyTest
         assertEquals(Money.dollar(15), result);
     }
 
+    @Test
     public void testSumTimes() {
         Expression fiveBucks= Money.dollar(5);
         Expression tenFrancs= Money.franc(10);
