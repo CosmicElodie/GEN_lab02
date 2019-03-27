@@ -71,13 +71,7 @@ class MoneyTest
         Money result= bank.reduce(Money.franc(2), "USD");
         assertEquals(Money.dollar(1), result);
     }
-
-    /* pas censé marcher
-    @Test
-    public void testArrayEquals() {
-        assertEquals(new Object[] {"abc"}, new Object[] {"abc"});
-    }*/
-
+    
     @Test
     public void testIdentityRate() {
         assertEquals(1, new Bank().rate("USD", "USD"));
