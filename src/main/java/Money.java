@@ -27,8 +27,8 @@ public class Money
         return new Franc(amount, "CHF");
     }
 
-    Money times(int amount) {
-        return null;
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
 
     public String toString() {
